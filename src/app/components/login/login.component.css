@@ -1,0 +1,63 @@
+@charset "UTF-8";
+.box-div{
+  height: fit-content;
+  width: fit-content;
+  padding: 30px;
+  margin: auto;
+  border-radius: 15px;
+  background-color: rgb(163, 160, 160);
+  backdrop-filter: blur(100px);
+}
+h2{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+
+}
+h4{
+  margin: 10px;
+  margin-left: 30px;
+  text-align: left;
+}
+.text-box-login{
+  border-radius: 10px;
+  width: 400px;
+}
+form{
+  background-image:linear-gradient( to right bottom, rgb(36, 31, 31), black, rgb(11, 7, 7) );
+  height: 100lvh;
+}
+svg{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5px;
+  height: 26px;
+  width: 26px;
+}
+.svg-logo{
+  height: 210px;
+  width: 360px;
+  margin-right: 5px;
+}
+.text-box-image{
+  align-items: center;
+}
+.text-box-login{
+  display: inline;
+  align-items: center;
+}
+.login-btn{
+  margin-top: 7px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-btn:hover{
+  background-color: black;
+  color: white;
+  margin-top: 7px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

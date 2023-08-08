@@ -1,0 +1,32 @@
+@charset "utf-8";
+.icono-imagen{
+  box-sizing: border-box;
+  height: 7vh;
+  width: 150px;
+  padding: 5px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  vertical-align: center;
+  z-index: 0;
+
+}
+.navbar{
+  z-index: 100;
+  height: auto;
+}
+.nav-item:hover{
+
+  background-color: lightgrey;
+  border-radius: 7px;
+}
+.nav-link:hover{
+  color: black !important;
+  font-weight: bold;
+}
+
+
+
+
+router-outlet{
+  z-index: 0;
+}
